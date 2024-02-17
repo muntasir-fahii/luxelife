@@ -136,6 +136,7 @@ h1 {
 
 .content-1 {
   font-weight: 700;
+  color: white;
 }
 
 .primary-headline {
@@ -212,4 +213,12 @@ h4 {
   height: 390px;
   width: 860px;
   object-fit: cover;
+}
+
+.content-2 {
+  height: 40vh;
+}
+
+.portfolio-sec {
+  background-color: var(--primary);
 }
