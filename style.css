@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --primary: #d9a14c;
+  --secondary: #f4f4f4;
+  --dark: #23262d;
+  --gray: #616670;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  font-family: "Rajdhani", sans-serif;
+}
+
+/* NAVBAR */
+
+.navbar {
+  background-color: var(--secondary);
+  height: 80px;
+}
+
+.nav-item {
+  font-weight: 700;
+}
+
+.nav-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--primary);
+  outline: none;
+  padding: 14px 25px 14px 25px;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.nav-btn-secondary {
+  color: white;
+  background-color: var(--primary);
+  padding: 10px 20px 10px 20px;
+  outline: none;
+  text-decoration: none;
+  border: none;
+}
+
+.nav-btn-tertiary {
+  color: black;
+  background-color: white;
+  padding: 10px 20px 10px 20px;
+  outline: none;
+  text-decoration: none;
+  border: 1px solid var(--primary);
+}
+
+/* HERO */
+
+.hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100vh;
+  align-items: center;
+}
+
+.hero-left {
+  background-image: url("./assets/hero-main.png");
+  height: 80%;
+  width: auto;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 64px;
+  width: 70%;
+  line-height: 1.2;
+}
+.hero-text {
+  width: 65%;
+  line-height: 1.2;
+}
+
+.subline {
+  font-weight: 700;
+}
+
+.hero-btn-right {
+  font-weight: 500;
+}
+
+/* ABOUT */
+
+.about {
+  background-color: var(--secondary);
+}
+
+.img-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: end;
+}
+
+.img-2 {
+  margin-top: 3rem;
+}
+
+.about-content {
+  background-color: var(--primary);
+  width: 60%;
+  margin-top: -10rem;
+  text-align: center;
+  height: 6rem;
+  padding: 1rem;
+  margin-left: 85px;
+  margin-top: -12rem;
+  color: white;
+}
+
+.overlay {
+  background-color: #d9a14c2f;
+  width: 500px;
+  margin-left: -16rem;
+  margin-top: -22rem;
+  margin-bottom: 5rem;
+  z-index: 0;
+}
+
+.content-1 {
+  font-weight: 700;
+}
+
+.primary-headline {
+  color: var(--primary);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.secondary-headline {
+  font-weight: 700;
+  color: var(--dark);
+}
+
+.text-secondary {
+  color: var(--gray);
+}
+h4 {
+  font-weight: 700;
+  color: var(--dark);
+}
+
+/* SERVICES */
+
+.section {
+  background-color: #23262d;
+  background-image: url("./assets/Vector-1.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 80vh;
+}
+
+.service-btn {
+  text-decoration: none;
+  border: none;
+  outline: none;
+  color: var(--secondary);
+  font-weight: 700;
+}
+
+.primary-icon {
+  color: var(--primary);
+}
